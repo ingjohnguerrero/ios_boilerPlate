@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12816A327BB5DF1000EC665 /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816A227BB5DF1000EC665 /* MovieTests.swift */; };
+		C12816A527BB6370000EC665 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816A427BB6370000EC665 /* Movie.swift */; };
+		C12816B527BB6EEF000EC665 /* AlamofireReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816AD27BB6EEF000EC665 /* AlamofireReachabilityManager.swift */; };
+		C12816B627BB6EEF000EC665 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816AF27BB6EEF000EC665 /* APIEnvironment.swift */; };
+		C12816B727BB6EEF000EC665 /* NonPersistentContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816B027BB6EEF000EC665 /* NonPersistentContext.swift */; };
+		C12816B827BB6EEF000EC665 /* APIEnvironments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816B127BB6EEF000EC665 /* APIEnvironments.swift */; };
+		C12816B927BB6EEF000EC665 /* APIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816B227BB6EEF000EC665 /* APIContext.swift */; };
+		C12816BA27BB6EEF000EC665 /* APIRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816B327BB6EEF000EC665 /* APIRoute.swift */; };
+		C12816BB27BB6EEF000EC665 /* AlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816B427BB6EEF000EC665 /* AlamofireService.swift */; };
+		C12816BE27BB704B000EC665 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C12816BD27BB704B000EC665 /* Alamofire */; };
+		C12816C127BBDBD2000EC665 /* MovieServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816C027BBDBD2000EC665 /* MovieServiceTests.swift */; };
+		C12816C327BBDD2F000EC665 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816C227BBDD2F000EC665 /* MovieService.swift */; };
+		C12816C527BC1860000EC665 /* MockMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816C427BC1860000EC665 /* MockMovieService.swift */; };
+		C12816C827BC1C30000EC665 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816C727BC1C30000EC665 /* JsonHelper.swift */; };
+		C12816CA27BC1DCC000EC665 /* moviesResult.json in Resources */ = {isa = PBXBuildFile; fileRef = C12816C927BC1DCC000EC665 /* moviesResult.json */; };
+		C12816CD27BC220C000EC665 /* MovieServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816CC27BC220C000EC665 /* MovieServiceError.swift */; };
+		C12816D127BC2422000EC665 /* TopMoviesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816D027BC2422000EC665 /* TopMoviesDTO.swift */; };
+		C12816D327BC2528000EC665 /* MovieDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816D227BC2528000EC665 /* MovieDTO.swift */; };
+		C12816D627BC26B3000EC665 /* MovieDTOTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816D527BC26B3000EC665 /* MovieDTOTranslator.swift */; };
+		C12816DA27BC4D6C000EC665 /* AlamofireMovieServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816D927BC4D6B000EC665 /* AlamofireMovieServiceTests.swift */; };
+		C12816DC27BC4F92000EC665 /* AlamofireMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816DB27BC4F92000EC665 /* AlamofireMovieService.swift */; };
+		C12816DF27BC56DE000EC665 /* MovieServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12816DE27BC56DE000EC665 /* MovieServiceRouter.swift */; };
 		C1C180E227BB2510006B5432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C180E127BB2510006B5432 /* AppDelegate.swift */; };
 		C1C180E427BB2510006B5432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C180E327BB2510006B5432 /* SceneDelegate.swift */; };
 		C1C180E627BB2510006B5432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C180E527BB2510006B5432 /* ViewController.swift */; };
@@ -36,6 +58,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C12816A227BB5DF1000EC665 /* MovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTests.swift; sourceTree = "<group>"; };
+		C12816A427BB6370000EC665 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C12816AD27BB6EEF000EC665 /* AlamofireReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireReachabilityManager.swift; sourceTree = "<group>"; };
+		C12816AF27BB6EEF000EC665 /* APIEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		C12816B027BB6EEF000EC665 /* NonPersistentContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonPersistentContext.swift; sourceTree = "<group>"; };
+		C12816B127BB6EEF000EC665 /* APIEnvironments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironments.swift; sourceTree = "<group>"; };
+		C12816B227BB6EEF000EC665 /* APIContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIContext.swift; sourceTree = "<group>"; };
+		C12816B327BB6EEF000EC665 /* APIRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRoute.swift; sourceTree = "<group>"; };
+		C12816B427BB6EEF000EC665 /* AlamofireService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
+		C12816C027BBDBD2000EC665 /* MovieServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceTests.swift; sourceTree = "<group>"; };
+		C12816C227BBDD2F000EC665 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		C12816C427BC1860000EC665 /* MockMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieService.swift; sourceTree = "<group>"; };
+		C12816C727BC1C30000EC665 /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
+		C12816C927BC1DCC000EC665 /* moviesResult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moviesResult.json; sourceTree = "<group>"; };
+		C12816CC27BC220C000EC665 /* MovieServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceError.swift; sourceTree = "<group>"; };
+		C12816D027BC2422000EC665 /* TopMoviesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesDTO.swift; sourceTree = "<group>"; };
+		C12816D227BC2528000EC665 /* MovieDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDTO.swift; sourceTree = "<group>"; };
+		C12816D527BC26B3000EC665 /* MovieDTOTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDTOTranslator.swift; sourceTree = "<group>"; };
+		C12816D927BC4D6B000EC665 /* AlamofireMovieServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireMovieServiceTests.swift; sourceTree = "<group>"; };
+		C12816DB27BC4F92000EC665 /* AlamofireMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireMovieService.swift; sourceTree = "<group>"; };
+		C12816DE27BC56DE000EC665 /* MovieServiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServiceRouter.swift; sourceTree = "<group>"; };
+		C12816E227BC5DE2000EC665 /* DebugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugConfig.xcconfig; sourceTree = "<group>"; };
+		C12816E327BC6082000EC665 /* ReleaseConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseConfig.xcconfig; sourceTree = "<group>"; };
 		C1C180DE27BB2510006B5432 /* boilerPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C180E127BB2510006B5432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1C180E327BB2510006B5432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12816BE27BB704B000EC665 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +122,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C128169E27BB50D2000EC665 /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C12816A627BB6E34000EC665 /* API */,
+				C12816CF27BC240C000EC665 /* DTOs */,
+				C12816CB27BC2112000EC665 /* Errors */,
+				C12816BF27BBD90C000EC665 /* MockedWebServer */,
+				C12816A027BB5DAF000EC665 /* Models */,
+				C12816CE27BC2252000EC665 /* Services */,
+				C12816D427BC268D000EC665 /* Translation */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		C128169F27BB54C1000EC665 /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C12816D827BC4D29000EC665 /* API */,
+				C12816A127BB5DCE000EC665 /* Models */,
+				C12816D727BC4D13000EC665 /* Services */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		C12816A027BB5DAF000EC665 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C12816A427BB6370000EC665 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C12816A127BB5DCE000EC665 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C12816A227BB5DF1000EC665 /* MovieTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C12816A627BB6E34000EC665 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C12816DD27BC5698000EC665 /* Alamofire */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C12816AE27BB6EEF000EC665 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C12816AF27BB6EEF000EC665 /* APIEnvironment.swift */,
+				C12816B027BB6EEF000EC665 /* NonPersistentContext.swift */,
+				C12816B127BB6EEF000EC665 /* APIEnvironments.swift */,
+				C12816B227BB6EEF000EC665 /* APIContext.swift */,
+				C12816B327BB6EEF000EC665 /* APIRoute.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C12816BF27BBD90C000EC665 /* MockedWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				C12816C927BC1DCC000EC665 /* moviesResult.json */,
+				C12816C427BC1860000EC665 /* MockMovieService.swift */,
+				C12816C727BC1C30000EC665 /* JsonHelper.swift */,
+			);
+			path = MockedWebServer;
+			sourceTree = "<group>";
+		};
+		C12816CB27BC2112000EC665 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				C12816CC27BC220C000EC665 /* MovieServiceError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		C12816CE27BC2252000EC665 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C12816C227BBDD2F000EC665 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C12816CF27BC240C000EC665 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				C12816D027BC2422000EC665 /* TopMoviesDTO.swift */,
+				C12816D227BC2528000EC665 /* MovieDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		C12816D427BC268D000EC665 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				C12816D527BC26B3000EC665 /* MovieDTOTranslator.swift */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		C12816D727BC4D13000EC665 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C12816C027BBDBD2000EC665 /* MovieServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C12816D827BC4D29000EC665 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C12816D927BC4D6B000EC665 /* AlamofireMovieServiceTests.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C12816DD27BC5698000EC665 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				C12816DB27BC4F92000EC665 /* AlamofireMovieService.swift */,
+				C12816AD27BB6EEF000EC665 /* AlamofireReachabilityManager.swift */,
+				C12816B427BB6EEF000EC665 /* AlamofireService.swift */,
+				C12816AE27BB6EEF000EC665 /* Base */,
+				C12816DE27BC56DE000EC665 /* MovieServiceRouter.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C12816E027BC5C75000EC665 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C12816E127BC5DAD000EC665 /* BuildConfigurations */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		C12816E127BC5DAD000EC665 /* BuildConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				C12816E227BC5DE2000EC665 /* DebugConfig.xcconfig */,
+				C12816E327BC6082000EC665 /* ReleaseConfig.xcconfig */,
+			);
+			path = BuildConfigurations;
+			sourceTree = "<group>";
+		};
 		C1C180D527BB2510006B5432 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +293,15 @@
 		C1C180E027BB2510006B5432 /* boilerPlate */ = {
 			isa = PBXGroup;
 			children = (
+				C1C180EF27BB2511006B5432 /* Info.plist */,
 				C1C180E127BB2510006B5432 /* AppDelegate.swift */,
 				C1C180E327BB2510006B5432 /* SceneDelegate.swift */,
 				C1C180E527BB2510006B5432 /* ViewController.swift */,
-				C1C180E727BB2510006B5432 /* Main.storyboard */,
 				C1C180EA27BB2511006B5432 /* Assets.xcassets */,
 				C1C180EC27BB2511006B5432 /* LaunchScreen.storyboard */,
-				C1C180EF27BB2511006B5432 /* Info.plist */,
+				C1C180E727BB2510006B5432 /* Main.storyboard */,
+				C128169E27BB50D2000EC665 /* ModelLayer */,
+				C12816E027BC5C75000EC665 /* SupportFiles */,
 			);
 			path = boilerPlate;
 			sourceTree = "<group>";
@@ -113,6 +309,7 @@
 		C1C180F727BB2511006B5432 /* boilerPlateTests */ = {
 			isa = PBXGroup;
 			children = (
+				C128169F27BB54C1000EC665 /* ModelLayer */,
 				C1C180F827BB2511006B5432 /* boilerPlateTests.swift */,
 			);
 			path = boilerPlateTests;
@@ -143,6 +340,9 @@
 			dependencies = (
 			);
 			name = boilerPlate;
+			packageProductDependencies = (
+				C12816BD27BB704B000EC665 /* Alamofire */,
+			);
 			productName = boilerPlate;
 			productReference = C1C180DE27BB2510006B5432 /* boilerPlate.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +415,9 @@
 				Base,
 			);
 			mainGroup = C1C180D527BB2510006B5432;
+			packageReferences = (
+				C12816BC27BB704B000EC665 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C1C180DF27BB2510006B5432 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +437,7 @@
 				C1C180EE27BB2511006B5432 /* LaunchScreen.storyboard in Resources */,
 				C1C180EB27BB2511006B5432 /* Assets.xcassets in Resources */,
 				C1C180E927BB2510006B5432 /* Main.storyboard in Resources */,
+				C12816CA27BC1DCC000EC665 /* moviesResult.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +462,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12816C527BC1860000EC665 /* MockMovieService.swift in Sources */,
+				C12816B527BB6EEF000EC665 /* AlamofireReachabilityManager.swift in Sources */,
+				C12816BB27BB6EEF000EC665 /* AlamofireService.swift in Sources */,
+				C12816C827BC1C30000EC665 /* JsonHelper.swift in Sources */,
+				C12816CD27BC220C000EC665 /* MovieServiceError.swift in Sources */,
+				C12816B727BB6EEF000EC665 /* NonPersistentContext.swift in Sources */,
+				C12816B827BB6EEF000EC665 /* APIEnvironments.swift in Sources */,
 				C1C180E627BB2510006B5432 /* ViewController.swift in Sources */,
+				C12816BA27BB6EEF000EC665 /* APIRoute.swift in Sources */,
+				C12816DF27BC56DE000EC665 /* MovieServiceRouter.swift in Sources */,
+				C12816C327BBDD2F000EC665 /* MovieService.swift in Sources */,
+				C12816DC27BC4F92000EC665 /* AlamofireMovieService.swift in Sources */,
+				C12816D127BC2422000EC665 /* TopMoviesDTO.swift in Sources */,
+				C12816D327BC2528000EC665 /* MovieDTO.swift in Sources */,
+				C12816D627BC26B3000EC665 /* MovieDTOTranslator.swift in Sources */,
+				C12816B927BB6EEF000EC665 /* APIContext.swift in Sources */,
+				C12816B627BB6EEF000EC665 /* APIEnvironment.swift in Sources */,
 				C1C180E227BB2510006B5432 /* AppDelegate.swift in Sources */,
+				C12816A527BB6370000EC665 /* Movie.swift in Sources */,
 				C1C180E427BB2510006B5432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +489,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12816A327BB5DF1000EC665 /* MovieTests.swift in Sources */,
 				C1C180F927BB2511006B5432 /* boilerPlateTests.swift in Sources */,
+				C12816C127BBDBD2000EC665 /* MovieServiceTests.swift in Sources */,
+				C12816DA27BC4D6C000EC665 /* AlamofireMovieServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +542,7 @@
 /* Begin XCBuildConfiguration section */
 		C1C1810627BB2511006B5432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12816E227BC5DE2000EC665 /* DebugConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -379,6 +604,7 @@
 		};
 		C1C1810727BB2511006B5432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12816E327BC6082000EC665 /* ReleaseConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -604,6 +830,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C12816BC27BB704B000EC665 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C12816BD27BB704B000EC665 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C12816BC27BB704B000EC665 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1C180D627BB2510006B5432 /* Project object */;
 }
